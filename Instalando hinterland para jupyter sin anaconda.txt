@@ -1,0 +1,10 @@
+1.Se debe tener instalado pythom y pip
+2.Abrir el cmd y ejecutar los siguientes comandos
+
+$pip install jupyter_contrib_nbextensions
+$pip install jupyter_nbextensions_configurator
+$jupyter contrib nbextension install --user
+$jupyter nbextensions_configurator enable --user
+
+3.Abrir jupyter notebook
+haga clic en la pestaña nbextensions y desmarcar nbextensions sin compatibilidad explícita
