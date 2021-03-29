@@ -1,0 +1,11 @@
+Crea un entorno de trabajo virtual python , la librería jupyter y pandas
+$python -m venv “entorno_python” 
+$pip install jupyter
+$pip install pandas
+$jupyter notebook
+
+Runtime version python
+$python --version
+
+Requirements de la aplicación
+$pip freeze
